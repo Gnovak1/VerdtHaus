@@ -1,0 +1,90 @@
+body{
+    
+    background-color: whitesmoke
+}
+
+.wordmark{
+    width: 300%;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    right: 105%;
+    
+}
+.logo{
+    left: 35%;
+    width: 25%; 
+    position: relative;
+    padding-left: 5%;
+}
+
+.container{
+    position: absolute;
+    width: 100%;
+}
+.navbar{
+    font-family: niveau-grotesk, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background: #B5DC79;
+    text-align: center;
+    position: relative;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    height: 50px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    display: block;
+    padding: 0 100px;
+    position: relative;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.navbar ul li a:hover{
+    height: 100%;
+    background-color: whitesmoke;
+    color: #B5DC79;
+}
+
+.grid-container{
+    display: inline-grid;
+     grid-column-gap: 50px;
+     grid-template-columns: auto auto auto auto;
+}
+
+.box01{
+    grid-column: 1/5;
+    grid-row: 1/5;
+    
+}
+
+h1{
+    font-family: niveau-grotesk, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: inline-block;
+}
+
+p{
+    font-family: niveau-grotesk, sans-serif;
+    display: inline-block;
+}
+
+
+footer{ 
+    top: 200px;
+    position: relative;
+    font-family: niveau-grotesk, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #666666;
+}
