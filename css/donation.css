@@ -1,6 +1,6 @@
 body{
     
-    background-color: whitesmoke
+    background-color: whitesmoke;
 }
 
 .wordmark{
@@ -58,24 +58,25 @@ body{
 }
 
 .box02{
-    position: relative;
-    left: 120%;
-    bottom: 17%;
+    position: absolute;
+    top: 150%;
     font-size: 20px;
     color: #666666;
     line-height: 30px;
     font-size: 14px;
+    width: 110%;
+     left: 180%;
         
 }
 
 .windturbine{
-    width: 50%;
+    width: 75%;
     position: absolute;
     padding: 5px;
     background-color: #666666;
-    left: 250%;
-        bottom: 20%;
+    top: 155%
 }
+
 
 h1{
     font-family: niveau-grotesk, sans-serif;
@@ -87,6 +88,8 @@ h1{
 p{
     font-family: niveau-grotesk, sans-serif;
     display: inline-block;
+    font-style: normal;
+    text-transform: none;
 }
 
 .donation-container {
@@ -380,6 +383,7 @@ p{
 }
 
 footer{
+    top: 300%;
     width: 350%;
     position: relative;
     font-family: niveau-grotesk, sans-serif;
